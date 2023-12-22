@@ -1,0 +1,15 @@
+import random
+
+for i in range(1,1000):
+    a = random.randint(1,6)
+    b = random.randint(1,6)
+    c = random.randint(1,6)
+    d = random.randint(1,6)
+    f = random.randint(1,6)
+    g = random.randint(1,6)
+    
+    e = (a+b+c+d+f+g)
+    if(e==31):
+        print(a,b,c,d,f,g)
+        print(e)
+        print("ye we have got it hurryehhhh")
